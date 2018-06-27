@@ -21,7 +21,7 @@ import Router from './routes.js';
 // Import App Component
 import App from './app';
 
-import store from './store';
+import store from './store/';
 
 // Set up some useful globals
 window.isMaterial = !Framework7.device.ios;

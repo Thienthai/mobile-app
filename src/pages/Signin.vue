@@ -1,9 +1,9 @@
 <template>
   <f7-page>
     <f7-navbar sliding>
-      <f7-nav-left>
+<!--       <f7-nav-left>
         <f7-link icon-f7="icon-bars" panel-open="left"></f7-link>
-      </f7-nav-left>
+      </f7-nav-left> -->
       <f7-nav-title>
         Sign In
       </f7-nav-title>
@@ -24,6 +24,7 @@ export default {
   data() {
     return {
       title: 'Hello Worldsaaa',
+      look: SigninForm.name
     };
   }
 };
